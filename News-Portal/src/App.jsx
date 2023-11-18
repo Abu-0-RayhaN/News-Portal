@@ -1,9 +1,9 @@
-// import React from "react";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
-    <div className="text-center bg-gray-300 font-bold text-3xl text-red-800">
-      App
+    <div className="max-w-screen-xl mx-auto">
+      <Nav />
     </div>
   );
 };
