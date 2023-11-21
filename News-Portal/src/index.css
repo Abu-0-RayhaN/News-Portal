@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .darkmode{
+        background-color: rgba(17, 24, 29, 0.5);
+    }
+    .whitemode{
+        background-color: rgba(200, 200, 200, 0.5);
+    }
+}

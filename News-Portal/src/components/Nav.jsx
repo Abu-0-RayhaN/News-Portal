@@ -20,7 +20,10 @@ const Nav = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <nav className="bg-gray-600 dark:bg-gray-950">
+    <nav
+      className={`fixed w-full top-0 left-0 shadow-xl z-50 bg-whitemode dark:bg-darkmode`}
+      // style={{ backgroundColor: "rgba(17, 24, 29, 0.5)" }}
+    >
       <div className="flex flex-col md:flex-row container p-3 justify-between align-middle max-w-screen-xl mx-auto text-center">
         <div className="relative flex">
           <p className="text-4xl font-kanit font-extrabold">
@@ -45,7 +48,7 @@ const Nav = () => {
         </div>
         <div className="">
           <ul
-            className={`flex-1 flex max-md:flex-col gap-10 font-kanit text-white align-middle  p-3 ${
+            className={`flex-1 flex max-md:flex-col gap-10 font-kanit text-white align-middle  p-3 transition-all duration-500 ease-in-out ${
               isVisible ? "flex" : "max-md:hidden"
             }`}
           >
@@ -80,5 +83,4 @@ const Nav = () => {
     </nav>
   );
 };
-
 export default Nav;
