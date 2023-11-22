@@ -13,7 +13,7 @@ import educationSpot from "./educationSpot.png";
 import exploring from "./exploring.jpg";
 import health from "./health.png";
 import iconomic from "./iconomic.jpg";
-import innovation from "./innovation.png";
+import innovation from "./innovation.jpg";
 import politicalDev from "./politicalDev.jpg";
 import sportsHi from "./sportsHi.jpg";
 import story from "./story.jpg";

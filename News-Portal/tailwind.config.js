@@ -9,6 +9,7 @@ export default {
         kanit: ["Kanit", "sans-serif"],
         neucha: ["Neucha", "sans-serif"],
         workSans: ["Work Sans", "sans-serif"],
+        kdam: ["Kdam Thmor Pro", "sans-serif"],
       },
     },
   },

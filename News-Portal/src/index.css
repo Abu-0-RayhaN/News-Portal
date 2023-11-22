@@ -1,13 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&family=Manrope&family=Neucha&family=Work+Sans:ital,wght@1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&family=Kdam+Thmor+Pro&family=Manrope&family=Neucha&family=Work+Sans:ital,wght@1,100&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .darkmode{
-        background-color: rgb(53, 127, 201);
-    }
-    .whitemode{
-        background-color: rgba(36, 35, 35, 0.9);
-    }
+.darkmode {
+    background-color: rgb(43, 42, 76);
+}
+
+.color-gray {
+    color: rgb(43, 42, 76);
+}
+
+.color-red {
+    color: rgb(179, 19, 18);
+}
+
+.color-flowers {
+    color: rgb(234, 144, 108);
+}
+
+.color-white {
+    color: rgb(238, 226, 222);
+}
+
+.back-white {
+    background-color: rgb(238, 226, 222);
 }
