@@ -9,7 +9,7 @@ import {
   space,
   sports,
   techGiant,
-  educationSpot,
+  // educationSpot,
   exploring,
   health,
   iconomic,
@@ -393,25 +393,25 @@ export const posts = [
       { commenter: "Quincy", comment: "Innovation drives progress." },
     ],
   },
-  {
-    id: 21,
-    image: educationSpot,
-    date: "2023-12-04",
-    title: "Education Spotlight: Learning Trends",
-    description:
-      "Stay informed about the latest trends in education, from innovative teaching methods to advancements in online learning platforms.",
-    author: "Xander Turner",
-    category: "education",
-    comments: [
-      {
-        commenter: "Rebecca",
-        comment: "Education is the key to a brighter future.",
-      },
-      { commenter: "Sarah", comment: "I'm passionate about learning." },
-      {
-        commenter: "Tristan",
-        comment: "Innovations in education are necessary.",
-      },
-    ],
-  },
+  // {
+  //   id: 21,
+  //   image: educationSpot,
+  //   date: "2023-12-04",
+  //   title: "Education Spotlight: Learning Trends",
+  //   description:
+  //     "Stay informed about the latest trends in education, from innovative teaching methods to advancements in online learning platforms.",
+  //   author: "Xander Turner",
+  //   category: "education",
+  //   comments: [
+  //     {
+  //       commenter: "Rebecca",
+  //       comment: "Education is the key to a brighter future.",
+  //     },
+  //     { commenter: "Sarah", comment: "I'm passionate about learning." },
+  //     {
+  //       commenter: "Tristan",
+  //       comment: "Innovations in education are necessary.",
+  //     },
+  //   ],
+  // },
 ];

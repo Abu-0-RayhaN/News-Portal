@@ -47,7 +47,7 @@ const Nav = () => {
         </div>
         <div>
           <ul
-            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold dark:text-white text-gray-900 p-2  ${
+            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold dark:text-white text-gray-900 p-2 text-xl ${
               isVisible ? "flex" : "max-md:hidden"
             }`}
           >
