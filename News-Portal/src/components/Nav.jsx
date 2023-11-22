@@ -21,53 +21,52 @@ const Nav = () => {
   };
   return (
     <nav
-      className={`fixed w-full top-0 left-0 shadow-xl z-50 bg-whitemode dark:bg-darkmode`}
-      // style={{ backgroundColor: "rgba(17, 24, 29, 0.5)" }}
+      className={`fixed w-full top-0 shadow-xl z-50 backdrop-filter backdrop-blur-lg`}
     >
       <div className="flex flex-col md:flex-row container p-3 justify-between align-middle max-w-screen-xl mx-auto text-center">
         <div className="relative flex">
           <p className="text-4xl font-kanit font-extrabold">
-            <span className="text-red-100">Ne</span>
-            <span className="text-green-100">ws</span>
-            <span className="text-red-400">24</span>
+            <span className="text-red-800">Ne</span>
+            <span className="text-green-400">ws</span>
+            <span className="text-red-600">24</span>
           </p>
           <div className="absolute right-2 md:hidden">
             {isVisible ? (
               <ImCross
                 alt="hamburger"
-                className="hidden max-lg:block h-9 w-9 pt-2 text-white"
+                className="hidden max-lg:block h-9 w-9 pt-2 dark:text-white text-gray-900"
                 onClick={handleButtonClick}
               />
             ) : (
               <GiHamburgerMenu
-                className="hidden max-lg:block h-9 w-9 pt-2 text-white"
+                className="hidden max-lg:block h-9 w-9 pt-2 dark:text-white text-gray-900"
                 onClick={handleButtonClick}
               />
             )}
           </div>
         </div>
-        <div className="">
+        <div>
           <ul
-            className={`flex-1 flex max-md:flex-col gap-10 font-kanit text-white align-middle  p-3 transition-all duration-500 ease-in-out ${
+            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold dark:text-white text-gray-900 p-2  ${
               isVisible ? "flex" : "max-md:hidden"
             }`}
           >
-            <li>
+            <li className="hover:text-red-300">
               <a href="#">Home</a>
             </li>
-            <li>
+            <li className="hover:text-red-300">
               <a href="#">News</a>
             </li>
-            <li>
+            <li className="hover:text-red-300">
               <a href="#">Sport</a>
             </li>
-            <li>
+            <li className="hover:text-red-300">
               <a href="#">Earth</a>
             </li>
-            <li>
+            <li className="hover:text-red-300">
               <a href="#">Culture</a>
             </li>
-            <li className="">
+            <li className="hover:text-red-300">
               <a href="#">Search bar</a>
             </li>
 

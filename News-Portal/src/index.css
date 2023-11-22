@@ -5,9 +5,9 @@
 
 @layer utilities {
     .darkmode{
-        background-color: rgba(17, 24, 29, 0.5);
+        background-color: rgb(53, 127, 201);
     }
     .whitemode{
-        background-color: rgba(200, 200, 200, 0.5);
+        background-color: rgba(36, 35, 35, 0.9);
     }
 }
