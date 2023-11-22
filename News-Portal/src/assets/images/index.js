@@ -8,6 +8,18 @@ import political from "./political.avif";
 import space from "./space.png";
 import sports from "./sports.jpg";
 import techGiant from "./techGiant.jpg";
+import traditional from "./traditional.jpg";
+import educationSpot from "./educationSpot.png";
+import exploring from "./exploring.jpg";
+import health from "./health.png";
+import iconomic from "./iconomic.jpg";
+import innovation from "./innovation.png";
+import politicalDev from "./politicalDev.jpg";
+import sportsHi from "./sportsHi.jpg";
+import story from "./story.jpg";
+import tech from "./tech.jpg";
+import tradFestival from "./tradFestival.jpg";
+
 export {
   art,
   cultural,
@@ -19,4 +31,15 @@ export {
   space,
   sports,
   techGiant,
+  traditional,
+  educationSpot,
+  exploring,
+  health,
+  iconomic,
+  innovation,
+  politicalDev,
+  sportsHi,
+  story,
+  tech,
+  tradFestival,
 };
