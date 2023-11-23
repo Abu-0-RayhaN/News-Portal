@@ -47,9 +47,9 @@ const Nav = () => {
         </div>
         <div>
           <ul
-            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold dark:text-white text-gray-900 p-2 text-xl ${
-              isVisible ? "flex" : "max-md:hidden"
-            }`}
+            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold dark:text-white text-gray-900 p-2 text-xl transition-all 
+            ${isVisible ? "flex" : "max-md:hidden"}
+            `}
           >
             <li className="hover:text-red-300">
               <a href="#">Home</a>

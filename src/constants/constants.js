@@ -415,3 +415,23 @@ export const posts = [
   //   ],
   // },
 ];
+
+export const footerLinks = [
+  {
+    title: "Help",
+    links: [
+      { name: "About us", link: "/" },
+      { name: "FAQs", link: "/" },
+      { name: "How it works", link: "/" },
+      { name: "Privacy policy", link: "/" },
+      { name: "Payment policy", link: "/" },
+    ],
+  },
+  {
+    title: "Get in touch",
+    links: [
+      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+      { name: "+92554862354", link: "tel:+92554862354" },
+    ],
+  },
+];

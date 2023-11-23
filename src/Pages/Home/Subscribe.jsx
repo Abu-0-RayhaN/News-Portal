@@ -1,9 +1,10 @@
 const Subscribe = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-around items-center gap-5 bg-gradient-to-t from-green-400 to-green-500 py-20 rounded-2xl">
-        <p className="text-5xl font-kdam font-extrabold  pt-3">
-          Sign up for our NewsLetter
+      <div className="flex flex-wrap justify-around items-center gap-5 bg-gradient-to-t from-green-400 to-green-500 py-20 rounded-2xl mb-20">
+        <p className="text-5xl font-kdam font-extrabold  pt-3 mx-3 leading-relaxed md:leading-normal">
+          <span className="block md:inline-block">Sign Up</span> for our{" "}
+          <span className="block md:inline-block">NewsLetter</span>
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-5  rounded-ful ">
           <input

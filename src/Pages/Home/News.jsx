@@ -21,7 +21,7 @@ const News = () => {
   return (
     <div>
       {Object.entries(categoryPosts).map(([category, categoryPosts]) => (
-        <div key={category} className="mx-5 lg:mx-2">
+        <div key={category} className="">
           <h3 className="text-2xl mb-4 text-left uppercase border-gray-900 pl-2  border-l-8 hover:text-red-900 hover:border-red-900 cursor-pointer dark:border-white dark:text-white dark:hover:text-red-600 dark:hover:border-red-600">
             {category}
           </h3>
