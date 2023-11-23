@@ -11,10 +11,10 @@ const Welcome = () => {
   return (
     <>
       <div className="flex justify-between mb-10">
-        <p className="text-lg md:text-xl lg:text-2xl font-kdam font-extrabold  dark:text-gray-300 ">
+        <p className="text-lg md:text-xl lg:text-3xl font-kdam font-extrabold  dark:text-gray-300 ">
           Welcome to News24.com
         </p>
-        <p className="text-gray-900 dark:text-gray-200 font-kdam">
+        <p className="text-gray-900 dark:text-gray-200 font-kdam text-sm md:text-lg">
           {formattedDate}
         </p>
       </div>
