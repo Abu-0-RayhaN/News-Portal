@@ -23,7 +23,7 @@ const Nav = () => {
     <nav
       className={`fixed w-full top-0 shadow-xl z-50 dark:backdrop-filter dark:backdrop-blur-lg bg-black dark:bg-transparent`}
     >
-      <div className="flex flex-col md:flex-row container p-3 justify-between align-middle max-w-screen-xl mx-auto text-center">
+      <div className="flex flex-col md:flex-row container px-2 py-2 justify-between align-middle max-w-screen-xl mx-auto text-center">
         <div className="relative flex">
           <p className="text-4xl font-kanit font-extrabold">
             <span className="text-white dark:text-red-800 ">Ne</span>
@@ -34,12 +34,12 @@ const Nav = () => {
             {isVisible ? (
               <ImCross
                 alt="hamburger"
-                className="hidden max-lg:block h-9 w-9 pt-2 dark:text-white text-gray-900"
+                className="hidden max-lg:block h-9 w-9 pt-2 text-white "
                 onClick={handleButtonClick}
               />
             ) : (
               <GiHamburgerMenu
-                className="hidden max-lg:block h-9 w-9 pt-2 dark:text-white text-gray-900"
+                className="hidden max-lg:block h-9 w-9 pt-2 text-white "
                 onClick={handleButtonClick}
               />
             )}
