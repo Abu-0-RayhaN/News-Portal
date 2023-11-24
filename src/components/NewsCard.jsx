@@ -1,28 +1,44 @@
 // eslint-disable-next-line react/prop-types
-const NewsCard = ({ image, title, date, category, id, description = "" }) => {
+const NewsCard = ({
+  // eslint-disable-next-line react/prop-types
+  image,
+  // eslint-disable-next-line react/prop-types
+  title,
+  // eslint-disable-next-line react/prop-types
+  date,
+  // eslint-disable-next-line react/prop-types
+  category,
+  // eslint-disable-next-line react/prop-types
+  id,
+  // eslint-disable-next-line react/prop-types
+  description = "",
+  // eslint-disable-next-line react/prop-types
+  width,
+}) => {
   const truncatedDescription =
-    description.slice(0, 80) + (description.length > 80 ? "..." : "");
+    description.slice(0, 100) + (description.length > 100 ? "..." : "");
+  console.log(width);
   return (
     <div
-      className="relative overflow-hidden w-full md:w-1/2 lg:w-1/3 hover:shadow-2xl border-transparent hover:border-gray-600 border-r-4 border-b-4 cursor-pointer"
+      className={`relative overflow-hidden hover:shadow-2xl border-transparent border-r-4 border-b-4 cursor-pointer `}
       id={id}
     >
       <div
-        className="h-[280px] bg-cover bg-center "
+        className={` bg-cover bg-center ${width}`}
         style={{ backgroundImage: `url(${image})` }}
       ></div>
       <div
-        className="absolute inset-0 flex flex-col justify-between p-4 text-white "
-        style={{ backdropFilter: "blur(2px)" }}
+        className="absolute inset-0 flex flex-col justify-between p-4 text-white hover:text-gray-200"
+        style={{ backdropFilter: "brightness(80%)" }}
       >
-        <div>
-          <p className="text-xl font-manrope leading-normal text-color-red text-right -mt-3">
+        <div className="">
+          <p className="text-xl font-manrope leading-normal text-color-red text-right -mt-3 ">
             {category}
           </p>
-          <h3 className="mt-10 text-2xl font-semibold font-kanit text-center text-white">
+          <h3 className="mt-[10%] text-2xl font-semibold font-kanit text-center text-">
             {title}
           </h3>
-          <p className="mt-2 text-sm text-gray-300 leading-normal">
+          <p className="mt-2 text-sm text-white leading-normal lg:hidden block">
             {truncatedDescription}
           </p>
         </div>
