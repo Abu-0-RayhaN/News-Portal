@@ -21,14 +21,14 @@ const Nav = () => {
   };
   return (
     <nav
-      className={`fixed w-full top-0 shadow-xl z-50 backdrop-filter backdrop-blur-lg`}
+      className={`fixed w-full top-0 shadow-xl z-50 dark:backdrop-filter dark:backdrop-blur-lg bg-black dark:bg-transparent`}
     >
       <div className="flex flex-col md:flex-row container p-3 justify-between align-middle max-w-screen-xl mx-auto text-center">
         <div className="relative flex">
           <p className="text-4xl font-kanit font-extrabold">
-            <span className="text-red-800">Ne</span>
-            <span className="text-green-400">ws</span>
-            <span className="text-red-600">24</span>
+            <span className="text-white dark:text-red-800 ">Ne</span>
+            <span className="text-white dark:text-green-400">ws</span>
+            <span className="text-white dark:text-red-600">24</span>
           </p>
           <div className="absolute right-2 md:hidden">
             {isVisible ? (
@@ -47,7 +47,7 @@ const Nav = () => {
         </div>
         <div>
           <ul
-            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold dark:text-white text-gray-900 p-2 text-xl transition-all 
+            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold text-white p-2 text-xl transition-all 
             ${isVisible ? "flex" : "max-md:hidden"}
             `}
           >

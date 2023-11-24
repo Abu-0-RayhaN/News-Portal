@@ -5,15 +5,15 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 const Footer = () => {
   return (
-    <section className="bg-gradient-to-t from-gray-900 to-gray-950 pb-8 text-white ">
+    <section className="bg-black pb-8 text-white text-xl">
       <footer className="max-w-screen-xl md:mx-auto flex flex-col md:flex-row gap-5 items-start justify-evenly pt-20 flex-wrap mx-[10%]">
         <div className="flex flex-col gap-5 justify-center">
           <div className="flex flex-col gap-5 justify-center">
             <a href="/">
               <p className="text-4xl font-kanit font-extrabold">
-                <span className="text-red-800">Ne</span>
-                <span className="text-green-400">ws</span>
-                <span className="text-red-600">24</span>
+                <span className="text-white dark:text-red-800">Ne</span>
+                <span className="text-white dark:text-green-400">ws</span>
+                <span className="text-white dark:text-red-600">24</span>
               </p>
             </a>
             <div>
