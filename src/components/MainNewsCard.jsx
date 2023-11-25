@@ -1,9 +1,14 @@
+import { Link } from "react-router-dom";
+
 // eslint-disable-next-line react/prop-types
 const NewsCard = ({ image, title, date, category, id, description = "" }) => {
   const truncatedDescription =
     description.slice(0, 80) + (description.length > 80 ? "..." : "");
   return (
-    <div className="h-[450px] w-full md:w-1/2 lg:w-1/3 hover:shadow-xl cursor-pointer rounded-lg">
+    <Link
+      className="h-[450px] w-full md:w-1/2 lg:w-1/3 hover:shadow-xl cursor-pointer rounded-lg"
+      to={`/post/${title}/${id}`}
+    >
       <div className="relative overflow-hidden" id={id}>
         <div
           className="h-[280px] bg-cover bg-center "
@@ -28,7 +33,7 @@ const NewsCard = ({ image, title, date, category, id, description = "" }) => {
           {truncatedDescription}
         </p>
       </div>
-    </div>
+    </Link>
   );
 };
 

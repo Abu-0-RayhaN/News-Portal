@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { BsFillSunFill, BsMoonStarsFill } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 const Nav = () => {
   const [theme, setTheme] = useState("dark");
   const [isVisible, setIsVisible] = useState(false);
@@ -52,7 +53,7 @@ const Nav = () => {
             `}
           >
             <li className="hover:text-red-300">
-              <a href="#">Home</a>
+              <Link to={"/"}>Home</Link>
             </li>
             <li className="hover:text-red-300">
               <a href="#">News</a>

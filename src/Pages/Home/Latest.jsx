@@ -6,7 +6,7 @@ const Latest = () => {
     .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, 5);
   return (
-    <div className="from-white to-slate-100 rounded-3xl bg-gradient-to-br mb-5 dark:from-gray-900 dark:to-gray-900">
+    <div className="mb-5">
       <h3 className="text-2xl mb-4 text-left uppercase border-gray-900 pl-2  border-l-8 hover:text-red-900 hover:border-red-900 cursor-pointer dark:border-white dark:text-white dark:hover:text-red-600 dark:hover:border-red-600">
         Latest
       </h3>
