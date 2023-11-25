@@ -1,9 +1,7 @@
 // Import necessary modules and components
 import { useParams, useNavigate } from "react-router-dom";
 import { posts } from "../../constants/constants";
-
-// import { MainNewsCard } from "../../components/MainNewsCard";
-import MainNewsCard from "../../components/MainNewsCard";
+import CategoryCard from "../../components/CategoryCard";
 const CategorizedPost = () => {
   const { category } = useParams();
   const navigate = useNavigate();
@@ -14,9 +12,9 @@ const CategorizedPost = () => {
   };
   return (
     <div className="pt-28 max-w-screen-xl mx-auto">
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 mb-10">
         {categoryPosts.map((post) => (
-          <MainNewsCard key={post.id} {...post} />
+          <CategoryCard key={post.id} {...post} />
           //   <h4 key={post.id}>{post.author}</h4>
         ))}
       </div>

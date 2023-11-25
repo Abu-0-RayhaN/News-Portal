@@ -25,7 +25,7 @@ const News = () => {
           <h3 className="text-2xl mb-4 text-left uppercase border-gray-900 pl-2  border-l-8 hover:text-red-900 hover:border-red-900 cursor-pointer dark:border-white dark:text-white dark:hover:text-red-600 dark:hover:border-red-600">
             {category}
           </h3>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 mb-10 ">
             {categoryPosts.slice(0, 3).map((post) => (
               <MainNewsCard key={post.id} {...post} />
             ))}

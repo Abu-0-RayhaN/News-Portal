@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const MainNewsCard = ({
+const CategoryCard = ({
   // eslint-disable-next-line react/prop-types
   image,
   // eslint-disable-next-line react/prop-types
@@ -50,4 +50,4 @@ const MainNewsCard = ({
   );
 };
 
-export default MainNewsCard;
+export default CategoryCard;

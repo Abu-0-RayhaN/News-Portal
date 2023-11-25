@@ -208,7 +208,7 @@ export const posts = [
     date: "2023-11-28",
     title: "Traditional Cuisine from Around the World",
     description:
-      "Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.",
+      "Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.",
     author: "Sophia Kim",
     category: "culture",
     comments: [
@@ -393,27 +393,90 @@ export const posts = [
       { commenter: "Quincy", comment: "Innovation drives progress." },
     ],
   },
-  // {
-  //   id: 21,
-  //   image: educationSpot,
-  //   date: "2023-12-04",
-  //   title: "Education Spotlight: Learning Trends",
-  //   description:
-  //     "Stay informed about the latest trends in education, from innovative teaching methods to advancements in online learning platforms.",
-  //   author: "Xander Turner",
-  //   category: "education",
-  //   comments: [
-  //     {
-  //       commenter: "Rebecca",
-  //       comment: "Education is the key to a brighter future.",
-  //     },
-  //     { commenter: "Sarah", comment: "I'm passionate about learning." },
-  //     {
-  //       commenter: "Tristan",
-  //       comment: "Innovations in education are necessary.",
-  //     },
-  //   ],
-  // },
+  {
+    id: 21,
+    image: tech,
+    date: "2022-12-04",
+    title: "Education Spotlight: Learning Trends",
+    description:
+      "Stay informed about the latest trends in education, from innovative teaching methods to advancements in online learning platforms.",
+    author: "Xander Turner",
+    category: "science",
+    comments: [
+      {
+        commenter: "Rebecca",
+        comment: "Education is the key to a brighter future.",
+      },
+      { commenter: "Sarah", comment: "I'm passionate about learning." },
+      {
+        commenter: "Tristan",
+        comment: "Innovations in education are necessary.",
+      },
+    ],
+  },
+  {
+    id: 22,
+    image: tech,
+    date: "2022-12-04",
+    title: "Education Spotlight: Learning Trends",
+    description:
+      "Stay informed about the latest trends in education, from innovative teaching methods to advancements in online learning platforms.",
+    author: "Xander Turner",
+    category: "science",
+    comments: [
+      {
+        commenter: "Rebecca",
+        comment: "Education is the key to a brighter future.",
+      },
+      { commenter: "Sarah", comment: "I'm passionate about learning." },
+      {
+        commenter: "Tristan",
+        comment: "Innovations in education are necessary.",
+      },
+    ],
+  },
+  {
+    id: 23,
+    image: tech,
+    date: "2022-12-04",
+    title: "Education Spotlight: Learning Trends",
+    description:
+      "Stay informed about the latest trends in education, from innovative teaching methods to advancements in online learning platforms.",
+    author: "Xander Turner",
+    category: "science",
+    comments: [
+      {
+        commenter: "Rebecca",
+        comment: "Education is the key to a brighter future.",
+      },
+      { commenter: "Sarah", comment: "I'm passionate about learning." },
+      {
+        commenter: "Tristan",
+        comment: "Innovations in education are necessary.",
+      },
+    ],
+  },
+  {
+    id: 24,
+    image: tech,
+    date: "2022-12-04",
+    title: "Education Spotlight: Learning Trends",
+    description:
+      "Stay informed about the latest trends in education, from innovative teaching methods to advancements in online learning platforms.",
+    author: "Xander Turner",
+    category: "science",
+    comments: [
+      {
+        commenter: "Rebecca",
+        comment: "Education is the key to a brighter future.",
+      },
+      { commenter: "Sarah", comment: "I'm passionate about learning." },
+      {
+        commenter: "Tristan",
+        comment: "Innovations in education are necessary.",
+      },
+    ],
+  },
 ];
 export const footerLinks = [
   {
