@@ -28,7 +28,7 @@ export const posts = [
     date: "2023-11-20",
     title: "Exciting Discovery in Science",
     description:
-      "Scientists have made a groundbreaking discovery that could revolutionize the way we perceive the universe. The new findings challenge existing theories and open up new possibilities for future exploration and understanding of the cosmos.",
+      "Scientists have made a groundbreaking discovery that could revolutionize the way we perceive the universe. The new findings challenge existing theories and open up new possibilities for future exploration and understanding of the cosmos.Scientists have made a groundbreaking discovery that could revolutionize the way we perceive the universe. The new findings challenge existing theories and open up new possibilities for future exploration and understanding of the cosmos. Scientists have made a groundbreaking discovery that could revolutionize the way we perceive the universe. The new findings challenge existing theories and open up new possibilities for future exploration and understanding of the cosmos.",
     author: "John Doe",
     category: "science",
     comments: [
@@ -43,7 +43,7 @@ export const posts = [
     date: "2023-11-19",
     title: "Tech Giants Announce New Collaboration",
     description:
-      "In a surprising move, leading tech companies have announced a collaborative effort to address environmental challenges and promote sustainability. The partnership aims to leverage technology for positive environmental impact and reshape industry practices.",
+      "In a surprising move, leading tech companies have announced a collaborative effort to address environmental challenges and promote sustainability. The partnership aims to leverage technology for positive environmental impact and reshape industry practices.In a surprising move, leading tech companies have announced a collaborative effort to address environmental challenges and promote sustainability. The partnership aims to leverage technology for positive environmental impact and reshape industry practices.In a surprising move, leading tech companies have announced a collaborative effort to address environmental challenges and promote sustainability. The partnership aims to leverage technology for positive environmental impact and reshape industry practices.In a surprising move, leading tech companies have announced a collaborative effort to address environmental challenges and promote sustainability. The partnership aims to leverage technology for positive environmental impact and reshape industry practices.",
     author: "Jane Smith",
     category: "technology",
     comments: [
@@ -61,7 +61,7 @@ export const posts = [
     date: "2023-11-18",
     title: "Political Developments Unfold",
     description:
-      "Recent political events have taken unexpected turns, shaping the landscape of international relations. Leaders engage in diplomatic dialogues, raising hopes for resolution in longstanding conflicts while introducing new challenges for global cooperation.",
+      "Recent political events have taken unexpected turns, shaping the landscape of international relations. Leaders engage in diplomatic dialogues, raising hopes for resolution in longstanding conflicts while introducing new challenges for global cooperation.Recent political events have taken unexpected turns, shaping the landscape of international relations. Leaders engage in diplomatic dialogues, raising hopes for resolution in longstanding conflicts while introducing new challenges for global cooperation.Recent political events have taken unexpected turns, shaping the landscape of international relations. Leaders engage in diplomatic dialogues, raising hopes for resolution in longstanding conflicts while introducing new challenges for global cooperation.Recent political events have taken unexpected turns, shaping the landscape of international relations. Leaders engage in diplomatic dialogues, raising hopes for resolution in longstanding conflicts while introducing new challenges for global cooperation.",
     author: "Alex Johnson",
     category: "politics",
     comments: [
@@ -80,7 +80,7 @@ export const posts = [
     date: "2023-11-17",
     title: "Cultural Festival Celebrates Diversity",
     description:
-      "A vibrant cultural festival took place, showcasing the rich tapestry of traditions and heritage from around the world. Attendees enjoyed music, dance, and cuisine, fostering a sense of unity and appreciation for cultural diversity.",
+      "A vibrant cultural festival took place, showcasing the rich tapestry of traditions and heritage from around the world. Attendees enjoyed music, dance, and cuisine, fostering a sense of unity and appreciation for cultural diversity.A vibrant cultural festival took place, showcasing the rich tapestry of traditions and heritage from around the world. Attendees enjoyed music, dance, and cuisine, fostering a sense of unity and appreciation for cultural diversity. A vibrant cultural festival took place, showcasing the rich tapestry of traditions and heritage from around the world. Attendees enjoyed music, dance, and cuisine, fostering a sense of unity and appreciation for cultural diversity.A vibrant cultural festival took place, showcasing the rich tapestry of traditions and heritage from around the world. Attendees enjoyed music, dance, and cuisine, fostering a sense of unity and appreciation for cultural diversity.A vibrant cultural festival took place, showcasing the rich tapestry of traditions and heritage from around the world. Attendees enjoyed music, dance, and cuisine, fostering a sense of unity and appreciation for cultural diversity.",
     author: "Sophie Brown",
     category: "culture",
     comments: [
@@ -98,7 +98,7 @@ export const posts = [
     date: "2023-11-16",
     title: "Healthcare Innovations for the Future",
     description:
-      "Advancements in healthcare technology are paving the way for a healthier future. From groundbreaking treatments to AI-driven diagnostics, the medical field is on the brink of transformative changes that could significantly improve patient outcomes.",
+      "Advancements in healthcare technology are paving the way for a healthier future. From groundbreaking treatments to AI-driven diagnostics, the medical field is on the brink of transformative changes that could significantly improve patient outcomes.Advancements in healthcare technology are paving the way for a healthier future. From groundbreaking treatments to AI-driven diagnostics, the medical field is on the brink of transformative changes that could significantly improve patient outcomes.Advancements in healthcare technology are paving the way for a healthier future. From groundbreaking treatments to AI-driven diagnostics, the medical field is on the brink of transformative changes that could significantly improve patient outcomes.Advancements in healthcare technology are paving the way for a healthier future. From groundbreaking treatments to AI-driven diagnostics, the medical field is on the brink of transformative changes that could significantly improve patient outcomes.Advancements in healthcare technology are paving the way for a healthier future. From groundbreaking treatments to AI-driven diagnostics, the medical field is on the brink of transformative changes that could significantly improve patient outcomes.",
     author: "Michael Turner",
     category: "earth",
     comments: [
@@ -119,7 +119,7 @@ export const posts = [
     date: "2023-11-15",
     title: "Sports Championship: A Nail-Biting Finish",
     description:
-      "The sports world witnessed a thrilling championship finale as teams competed fiercely for the coveted trophy. The match concluded with a nail-biting finish, leaving fans on the edge of their seats and sparking debates about sportsmanship and strategy.",
+      "The sports world witnessed a thrilling championship finale as teams competed fiercely for the coveted trophy. The match concluded with a nail-biting finish, leaving fans on the edge of their seats and sparking debates about sportsmanship and strategy.The sports world witnessed a thrilling championship finale as teams competed fiercely for the coveted trophy. The match concluded with a nail-biting finish, leaving fans on the edge of their seats and sparking debates about sportsmanship and strategy.The sports world witnessed a thrilling championship finale as teams competed fiercely for the coveted trophy. The match concluded with a nail-biting finish, leaving fans on the edge of their seats and sparking debates about sportsmanship and strategy.The sports world witnessed a thrilling championship finale as teams competed fiercely for the coveted trophy. The match concluded with a nail-biting finish, leaving fans on the edge of their seats and sparking debates about sportsmanship and strategy.The sports world witnessed a thrilling championship finale as teams competed fiercely for the coveted trophy. The match concluded with a nail-biting finish, leaving fans on the edge of their seats and sparking debates about sportsmanship and strategy.",
     author: "Daniel Miller",
     category: "sports",
     comments: [
@@ -135,7 +135,7 @@ export const posts = [
     date: "2023-11-14",
     title: "Environmental Conservation Initiative Launched",
     description:
-      "A new environmental conservation initiative has been launched, aiming to address pressing issues such as climate change and biodiversity loss. Experts and activists are hopeful that this initiative will inspire global efforts towards a more sustainable future.",
+      "A new environmental conservation initiative has been launched, aiming to address pressing issues such as climate change and biodiversity loss. Experts and activists are hopeful that this initiative will inspire global efforts towards a more sustainable future.A new environmental conservation initiative has been launched, aiming to address pressing issues such as climate change and biodiversity loss. Experts and activists are hopeful that this initiative will inspire global efforts towards a more sustainable future.A new environmental conservation initiative has been launched, aiming to address pressing issues such as climate change and biodiversity loss. Experts and activists are hopeful that this initiative will inspire global efforts towards a more sustainable future.A new environmental conservation initiative has been launched, aiming to address pressing issues such as climate change and biodiversity loss. Experts and activists are hopeful that this initiative will inspire global efforts towards a more sustainable future.",
     author: "Natalie Green",
     category: "earth",
     comments: [
@@ -150,7 +150,7 @@ export const posts = [
     date: "2023-11-13",
     title: "Art Exhibition Showcases Local Talent",
     description:
-      "A local art exhibition is gaining attention for featuring the works of talented artists from the community. The diverse range of artistic expressions includes paintings, sculptures, and digital art, providing a platform for local creatives to shine.",
+      "A local art exhibition is gaining attention for featuring the works of talented artists from the community. The diverse range of artistic expressions includes paintings, sculptures, and digital art, providing a platform for local creatives to shine.A local art exhibition is gaining attention for featuring the works of talented artists from the community. The diverse range of artistic expressions includes paintings, sculptures, and digital art, providing a platform for local creatives to shine.A local art exhibition is gaining attention for featuring the works of talented artists from the community. The diverse range of artistic expressions includes paintings, sculptures, and digital art, providing a platform for local creatives to shine.A local art exhibition is gaining attention for featuring the works of talented artists from the community. The diverse range of artistic expressions includes paintings, sculptures, and digital art, providing a platform for local creatives to shine.A local art exhibition is gaining attention for featuring the works of talented artists from the community. The diverse range of artistic expressions includes paintings, sculptures, and digital art, providing a platform for local creatives to shine.A local art exhibition is gaining attention for featuring the works of talented artists from the community. The diverse range of artistic expressions includes paintings, sculptures, and digital art, providing a platform for local creatives to shine.",
     author: "Sophie Williams",
     category: "art",
     comments: [
@@ -168,7 +168,7 @@ export const posts = [
     date: "2023-11-12",
     title: "Space Exploration: New Mission Unveiled",
     description:
-      "NASA has announced a new space exploration mission that aims to uncover mysteries beyond our solar system. Scientists and astronomers are eagerly anticipating the data and discoveries that may reshape our understanding of the universe.",
+      "NASA has announced a new space exploration mission that aims to uncover mysteries beyond our solar system. Scientists and astronomers are eagerly anticipating the data and discoveries that may reshape our understanding of the universe.NASA has announced a new space exploration mission that aims to uncover mysteries beyond our solar system. Scientists and astronomers are eagerly anticipating the data and discoveries that may reshape our understanding of the universe.NASA has announced a new space exploration mission that aims to uncover mysteries beyond our solar system. Scientists and astronomers are eagerly anticipating the data and discoveries that may reshape our understanding of the universe.NASA has announced a new space exploration mission that aims to uncover mysteries beyond our solar system. Scientists and astronomers are eagerly anticipating the data and discoveries that may reshape our understanding of the universe.",
     author: "Ryan Johnson",
     category: "science",
     comments: [
@@ -183,7 +183,7 @@ export const posts = [
     date: "2023-11-11",
     title: "Education Reforms: Shaping the Future of Learning",
     description:
-      "Education policymakers have unveiled a series of reforms designed to enhance the quality of education and adapt to the evolving needs of students. The reforms include innovative teaching methods, updated curriculum, and a focus on digital literacy.",
+      "Education policymakers have unveiled a series of reforms designed to enhance the quality of education and adapt to the evolving needs of students. The reforms include innovative teaching methods, updated curriculum, and a focus on digital literacy.Education policymakers have unveiled a series of reforms designed to enhance the quality of education and adapt to the evolving needs of students. The reforms include innovative teaching methods, updated curriculum, and a focus on digital literacy.Education policymakers have unveiled a series of reforms designed to enhance the quality of education and adapt to the evolving needs of students. The reforms include innovative teaching methods, updated curriculum, and a focus on digital literacy.Education policymakers have unveiled a series of reforms designed to enhance the quality of education and adapt to the evolving needs of students. The reforms include innovative teaching methods, updated curriculum, and a focus on digital literacy.",
     author: "Jordan Davis",
     category: "science",
     comments: [
@@ -208,7 +208,7 @@ export const posts = [
     date: "2023-11-28",
     title: "Traditional Cuisine from Around the World",
     description:
-      "Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.",
+      "Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.Explore the diverse and delectable traditional cuisines from different corners of the world, each with its unique flavors.",
     author: "Sophia Kim",
     category: "culture",
     comments: [
@@ -229,7 +229,7 @@ export const posts = [
     date: "2023-11-25",
     title: "Traditional Festivals: A Global Celebration",
     description:
-      "Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.",
+      "Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.Explore traditional festivals celebrated around the world, showcasing the diversity of global cultural celebrations.",
     author: "Sophia Miller",
     category: "culture",
     comments: [
@@ -247,7 +247,7 @@ export const posts = [
     date: "2023-11-26",
     title: "The Art of Storytelling",
     description:
-      "Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.",
+      "Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.Discover the ancient art of storytelling and its role in preserving cultural narratives across generations.",
     author: "Ethan Davis",
     category: "art",
     comments: [
@@ -268,7 +268,7 @@ export const posts = [
     date: "2023-11-27",
     title: "Political Developments: A Global Perspective",
     description:
-      "Explore recent political developments from a global perspective, understanding the impact on nations and societies.",
+      "Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.Explore recent political developments from a global perspective, understanding the impact on nations and societies.",
     author: "Aiden Wilson",
     category: "politics",
     comments: [
@@ -311,7 +311,7 @@ export const posts = [
     date: "2023-11-29",
     title: "Innovations in Medical Technology",
     description:
-      "Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.",
+      "Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.Explore groundbreaking innovations in medical technology, revolutionizing the way we approach healthcare and treatment.",
     author: "Eva Carter",
     category: "politics",
     comments: [
@@ -329,7 +329,7 @@ export const posts = [
     date: "2023-11-30",
     title: "Sports Highlights: Memorable Moments",
     description:
-      "Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.",
+      "Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.Relive memorable moments in the world of sports, from historic victories to heartwarming stories of athletes overcoming challenges.",
     author: "Logan Harris",
     category: "sports",
     comments: [
@@ -415,7 +415,6 @@ export const posts = [
   //   ],
   // },
 ];
-
 export const footerLinks = [
   {
     title: "Help",
