@@ -40,7 +40,7 @@ const NewsCard = ({
             <h3 className="mt-[10%] text-2xl font-semibold font-kanit text-center text-">
               {title}
             </h3>
-            <p className="mt-2 text-sm text-white leading-normal lg:hidden block">
+            <p className="mt-2 text-sm text-white leading-normal hidden">
               {truncatedDescription}
             </p>
           </div>

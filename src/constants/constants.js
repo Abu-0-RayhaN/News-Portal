@@ -388,7 +388,11 @@ export const posts = [
     author: "Mia Foster",
     category: "technology",
     comments: [
-      { commenter: "Oliver", comment: "The future of tech is exciting!" },
+      {
+        commenter: "Oliver",
+        comment:
+          "The future of tech is exciting!The future of tech is exciting!The future of tech is exciting! The future of tech is exciting! The future of tech is exciting!",
+      },
       { commenter: "Paige", comment: "I'm always curious about tech trends." },
       { commenter: "Quincy", comment: "Innovation drives progress." },
     ],

@@ -20,7 +20,7 @@ const CategorizedPost = () => {
       </div>
       <button
         onClick={goBack}
-        className="mt-8 p-2 dark:bg-white bg-black dark:text-black text-white hover:bg-blue-600 rounded-md mb-5"
+        className="mt-8 p-2 dark:bg-white bg-black dark:text-black text-white hover:bg-blue-600 rounded-md mb-5 text-bold"
       >
         Go Back
       </button>

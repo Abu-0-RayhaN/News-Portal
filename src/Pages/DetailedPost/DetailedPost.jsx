@@ -1,6 +1,9 @@
+/* eslint-disable react/jsx-key */
 import { useParams, useNavigate, Link } from "react-router-dom";
 import { posts } from "../../constants/constants";
 import { useEffect } from "react";
+import Comments from "./Comments";
+import Comment from "./Comment";
 const DetailedPost = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -25,8 +28,8 @@ const DetailedPost = () => {
   };
 
   return (
-    <div className=" max-w-screen-xl mx-auto dark:bg-black pt-28">
-      <div className="flex flex-col md:flex-row gap-5 mx-5 lg:mx-auto mb-20">
+    <div className=" max-w-screen-xl mx-auto dark:bg-black pt-28 ">
+      <div className="flex flex-col md:flex-row gap-5 mx-5 lg:mx-auto mb-20 lg:pb-64">
         <div className="w-full md:w-2/3 lg:w-3/4">
           <h1 className="text-3xl font-bold mb-4 dark:text-white">
             {post.title}
@@ -42,6 +45,12 @@ const DetailedPost = () => {
           <p className="text-gray-700 leading-relaxed dark:text-white">
             {post.description}
           </p>
+          <div className="pt-10">
+            <Comment />
+            {post.comments.map((comment) => (
+              <Comments {...comment} key={comment.commenter} />
+            ))}
+          </div>
         </div>
         <div className="flex flex-col gap-5 p-5 w-full md:w-1/3 lg:w-1/4">
           <div>

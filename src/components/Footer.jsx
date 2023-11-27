@@ -25,10 +25,21 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex gap-3 items-center">
-            <FaFacebook className="h-12 w-12" />
-            <FaGithub className="h-12 w-12" />
-            <FaLinkedin className="h-12 w-12" />
-            <FaInstagramSquare className="h-12 w-12" />
+            <a href="https://www.facebook.com/Abu.0.RayhaN" target="__blank">
+              <FaFacebook className="h-12 w-12" />
+            </a>
+            <a href="https://github.com/Abu-0-RayhaN" target="__blank">
+              <FaGithub className="h-12 w-12" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abu-0-rayhan/"
+              target="__blank"
+            >
+              <FaLinkedin className="h-12 w-12" />
+            </a>
+            <a href="https://www.instagram.com/abu_0_rayhan/" target="__blank">
+              <FaInstagramSquare className="h-12 w-12" />
+            </a>
           </div>
         </div>
         <div className="flex flex-col gap-3 justify-center align-middle font-kanit">
