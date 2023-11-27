@@ -3,6 +3,7 @@ import { BsFillSunFill, BsMoonStarsFill } from "react-icons/bs";
 import { ImCross } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
+import Search from "./Search";
 const Nav = () => {
   const [theme, setTheme] = useState("dark");
   const [isVisible, setIsVisible] = useState(false);
@@ -48,7 +49,7 @@ const Nav = () => {
         </div>
         <div>
           <ul
-            className={`flex-1 flex max-md:flex-col gap-10 font-kanit font-extrabold text-white p-2 text-xl transition-all 
+            className={`flex-1 flex max-md:flex-col gap-4 md:gap-10 font-kanit font-extrabold text-white p-2 text-xl items-center
             ${isVisible ? "flex" : "max-md:hidden"}
             `}
           >
@@ -56,19 +57,19 @@ const Nav = () => {
               <Link to={"/"}>Home</Link>
             </li>
             <li className="hover:text-red-300">
-              <a href="#">News</a>
+              <Link to={`/category/${"sports"}`}>Sports</Link>
             </li>
             <li className="hover:text-red-300">
-              <a href="#">Sport</a>
+              <Link to={`/category/${"politics"}`}>Politics</Link>
             </li>
             <li className="hover:text-red-300">
-              <a href="#">Earth</a>
+              <Link to={`/category/${"earth"}`}>Earth</Link>
             </li>
             <li className="hover:text-red-300">
-              <a href="#">Culture</a>
+              <Link to={`/category/${"culture"}`}>Culture</Link>
             </li>
-            <li className="hover:text-red-300">
-              <a href="#">Search bar</a>
+            <li className="">
+              <Search />
             </li>
 
             <span

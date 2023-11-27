@@ -28,7 +28,7 @@ const DetailedPost = () => {
   };
 
   return (
-    <div className=" max-w-screen-xl mx-auto dark:bg-black pt-28 ">
+    <div className=" max-w-screen-xl mx-auto dark:bg-black pt-28">
       <div className="flex flex-col md:flex-row gap-5 mx-5 lg:mx-auto mb-20 lg:pb-64">
         <div className="w-full md:w-2/3 lg:w-3/4">
           <h1 className="text-3xl font-bold mb-4 dark:text-white">
