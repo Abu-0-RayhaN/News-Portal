@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import Search from "./Search";
 const Nav = () => {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const [isVisible, setIsVisible] = useState(false);
 
   const handleButtonClick = () => {
